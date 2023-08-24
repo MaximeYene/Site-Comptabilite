@@ -196,12 +196,23 @@ button a
 .footer-title
 {
     margin-bottom: 1%;
+    transition: .7s;
+}
+.footer-title:hover
+{
+    transform: scale(1.02);
 }
 .footer-title a
 {
     text-decoration: none;
     font-size: 30px;
+   color: #fff;
+   transition: .7s;
+}
+.footer-title a:hover
+{
     color: aquamarine;
+    transform: scale(1.02);
 }
 .footer-footer
 {
